@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "nodemon_start" : "nodemon index.js"
   },
   "author": "MyungIn_Yoo",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "mongoose": "^6.2.1"
+    "mongoose": "^6.2.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
